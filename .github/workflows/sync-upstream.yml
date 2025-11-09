@@ -2,7 +2,7 @@ name: 🔄 Sync from upstream
 
 on:
   schedule:
-    - cron: '40 13 * * *'       # daily at 05:00 UTC
+    - cron: '0 5 * * *'       # daily at 05:00 UTC
   workflow_dispatch:         # manual trigger
 
 permissions:
